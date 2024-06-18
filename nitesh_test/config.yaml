@@ -1,0 +1,33 @@
+# test: D:\Data science\2. ML\CV Projects\automatic-number-plate-recognition-python-yolov8-main\Nitesh\alpaca.v1i.yolov8\test\images
+# train: D:\Data science\2. ML\CV Projects\automatic-number-plate-recognition-python-yolov8-main\Nitesh\alpaca.v1i.yolov8\train\images
+# val: D:\Data science\2. ML\CV Projects\automatic-number-plate-recognition-python-yolov8-main\Nitesh\alpaca.v1i.yolov8\valid\images
+
+# names:
+#   0:alpaca
+
+
+# yolov8n.yaml
+
+# Dataset
+train: /kaggle/input/dataset/automatic-number-plate-recognition-python-yolov8-main/Nitesh/train/images
+val: /kaggle/input/dataset/automatic-number-plate-recognition-python-yolov8-main/Nitesh/valid/images
+nc: 1
+names: ['MoreHell - v1 2021-08-31 3-45pm']
+
+
+# # Model
+# model:
+#   type: YOLOv8  # Adjust if using a different model variant
+#   pretrained: False  # Set to True if using pre-trained weights
+
+# # Training
+# # batch_size: 16
+# epochs: 1
+# # lr0: 0.01
+# # lrf: 0.01
+# # momentum: 0.937
+# # weight_decay: 0.0005
+# # ...
+
+# # # Other settings (optimizer, augmentation, etc.)
+

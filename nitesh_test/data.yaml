@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['MoreHell - v1 2021-08-31 3-45pm']
+
+roboflow:
+  workspace: 2024126
+  project: alpaca-ysjtm
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/2024126/alpaca-ysjtm/dataset/1
